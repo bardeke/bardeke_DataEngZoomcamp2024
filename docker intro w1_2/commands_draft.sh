@@ -63,12 +63,25 @@ python ingest_data.py \
   --url="https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2019-09.csv.gz"
 
 
-  docker build -t taxi_ingest:v017 .
+  docker build -t taxi_ingest:v020 .
   # dot at end is important!
 
   docker run -it \
   --network=pg \
-  taxi_ingest:v017 \
+  taxi_ingest:v018 \
+    --user=root \
+    --password=root \
+    --host=pgdatabase \
+    --port=5432 \
+    --db=ny_taxi_hw1 \
+    --table_name1=green_taxi \
+    --table_name2=zone_lookup \
+    --url1="https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2019-09.csv.gz" \
+    --url2="https://s3.amazonaws.com/nyc-tlc/misc/taxi+_zone_lookup.csv"
+
+  docker run -it \
+   --network=pg-network \
+  taxi_ingest:v020 \
     --user=root \
     --password=root \
     --host=pgdatabase \
