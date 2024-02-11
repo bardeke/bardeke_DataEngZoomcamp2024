@@ -1,6 +1,3 @@
-# bardeke_DataEngZoomcamp2024
-
-hw3 sql queries and notes
 -- create external table from parquet file in bucket
 CREATE OR REPLACE EXTERNAL TABLE `chromatic-fx-411315.ny_taxi.external_green_tripdata_fromparquet`
 OPTIONS (
