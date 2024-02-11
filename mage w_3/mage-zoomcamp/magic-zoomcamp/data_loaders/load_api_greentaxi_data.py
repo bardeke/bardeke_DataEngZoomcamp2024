@@ -15,7 +15,7 @@ def load_data_from_api(*args, **kwargs):
     # Define the common URL path
     # url = 'https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2021-01.csv.gz'
     import urllib.request
-    url = 'https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2020-10.csv.gz'
+    # url = 'https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2020-10.csv.gz'
     url_path = 'https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2020-'
     # urllib.request.urlretrieve(url, 'green_tripdata_2020-10.csv.gz')
     # List of month strings
