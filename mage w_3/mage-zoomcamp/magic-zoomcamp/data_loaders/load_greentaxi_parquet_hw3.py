@@ -73,10 +73,7 @@ def load_data(*args, **kwargs):
     merged_df['lpep_pickup_datetime'] = pd.to_datetime(merged_df['lpep_pickup_datetime'])
     merged_df['lpep_dropoff_datetime'] = pd.to_datetime(merged_df['lpep_dropoff_datetime'])
 
-        # Specify your data loading logic here
-
     return merged_df
-
 
 @test
 def test_output(output, *args) -> None:
