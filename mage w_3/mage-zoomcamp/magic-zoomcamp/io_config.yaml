@@ -38,7 +38,7 @@ default:
   DUCKDB_SCHEMA: main
   # Google
   
-  GOOGLE_SERVICE_ACC_KEY_FILEPATH: "/home/src/chromatic-fx-411315-eddf9285981a.json"
+  GOOGLE_SERVICE_ACC_KEY_FILEPATH: "/home/src/chromatic-fx-411315-1fee43270c96.json"
   GOOGLE_LOCATION: US # Optional
   # MongoDB
   # Specify either the connection string or the (host, password, user, port) to connect to MongoDB.
