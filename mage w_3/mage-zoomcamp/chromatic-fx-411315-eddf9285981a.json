@@ -1,13 +1,1 @@
-{
-  "type": "service_account",
-  "project_id": "chromatic-fx-411315",
-  "private_key_id": "eddf9285981a8cb933bb309305d05ea837c0dcea",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDCxiHMcQN+A4/N\nLAxQcGIcCTDVWwNBFFp6XlgHqGA2HDXuBbCYg7xgc8ipGHTgki9AH03mMENpaM0e\nMEteyLvVFKfUHAkau44B1ULUDUWcHj4aeWGsx5Vf94ndZSZc+AsIsL3V7O5AEABM\ncIzN5IQ5bs3hyy+EyOk72PdlQdMyz7OMdW5labGUso7BaHhMO4OUUWjXeSJ0xqej\njRAetunynurCwqu76Tqbz8hsXhd4e4NJF90eN2DkayfoD0Luptvp2T2A6A/Tj3US\nvt34JbruvEPU9TQ9CcQVDdkHyy46gYExM0jtNCfyzt9yDrHlgSk1lqwytQ1GkjuA\nNyS5Rr/BAgMBAAECggEAAOlBiWM3n4xfjOzpaNXsa5JSb2kT1ecvuNX9+5kwIV4B\nQD9iu6/qvsPD5aCcPrGzCriAGjUnF5Q6g2s5QF9YMO9ot+oNU9nv7eEZb9muYJmB\nSQlA1E4Btvd25mQoVAktWgl49d98H4IY/O043Ly2g/iZT3auc/n8TKqfllJtbRXV\nZUy0fBfOxAk960rOfSVAk1uyTMIAAONogNhZCIHuOSb1/bkJz8ItYazslRfvyhxr\nbOQNaKIUr5JGAUZEw0kwQ0j2wDWnBLO+WA+ApQSh93n2vljaHLl+VOyJ3i5kdEvV\nhxM27RldGn79FRBFLsmVhXTbPxYqE1fH6ugA3hnFAQKBgQDuVVWXG4fJhPYVNReU\nzZ7xJKTNfpcp65XLgfK4YBptlOz9AGm+/YatEV7NvTHKrasinU0qha4CruP6ackm\ntpc8/6vUvFCwUAaf+3FtdO6KcBbQNGTDthnQx557kcUQ0rNmiHUiiQ8FKTW5kJJ/\nGipCpky/p0TRWcBYPn1Q57UpYQKBgQDRNjSMYEDMSeb1YR/gH/wQx0Mf36AihM+r\n+ezU+kZtIKe4KkgOhcC48e+dorOZgPMjqjW/CSHoje8SmAAT0smCRKf8jxeik0Al\n5xHX5blTDncQa0CpGsjvrvYLhCQP40jtky2fahiUrLan49XBmjLyN0we1P5l8qVG\niUE33QFSYQKBgQCpyHK7veoCvkyMGRFeeQjUYrVgiuDnBSPmIQGnJRdOnzwglA3A\n+Fzbp7cwu6nf5841T3fsZeTrlmlkN74LbSHaW4yudSTKJYhCqd5JCnbweh9WXSy3\nW1+SotIc12Batq8EyQsg+iCQHaZfNkWWdC5M4qlkEqXsuZJTiti9LQOaoQKBgQDC\nEvGeQu/5UpkAic+i/qi6+83l9HG9c8yeMWMkkuLf+sn7SqW7axJDvpNUfQj0Xi2u\nqQfgpl0hOQFNE1oHCaPKx1u6Kxd2xfhc8MSZrc5EIQgMYCIEfQdnaLtwJW26m1Ic\nqUpKNoaE7M8oYW76gMu/69IeS+GOuw/cphis9MR0IQKBgGO619NYJmXB6ZnpmspA\nff9Jg0LnMWICtkZHFCX8/cIx8PC3yD6gwynBnj40OuDI3XDucVYhjAC3rKOm2fLL\nNFh8Z7kkwSMTpCZC7se0pnVSOhC8MNRxTPxhmw+mABC8DZPy5DauPE1FI1CsFzQB\n04f/8ydo1BRyq9Es/wBoviQ4\n-----END PRIVATE KEY-----\n",
-  "client_email": "marge-zoomcamp@chromatic-fx-411315.iam.gserviceaccount.com",
-  "client_id": "101361257927404702476",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/marge-zoomcamp%40chromatic-fx-411315.iam.gserviceaccount.com",
-  "universe_domain": "googleapis.com"
-}
+
