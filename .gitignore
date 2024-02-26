@@ -172,3 +172,6 @@ scratch*
 magic-zoomcamp
 *.json
 
+# Data files - because of size
+data/*
+
