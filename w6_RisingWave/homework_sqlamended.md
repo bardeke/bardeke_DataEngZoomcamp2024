@@ -94,6 +94,7 @@ Options:
 
 SQL
 
+```sql
 CREATE MATERIALIZED VIEW taxi_zone_trip_durations AS
 SELECT
     tp.pulocationid AS pickup_zone_id,
@@ -112,8 +113,9 @@ JOIN
     taxi_zone tzd ON tp.dolocationid = tzd.location_id
 GROUP BY
     tp.pulocationid, tzp.Zone, tp.dolocationid, tzd.Zone;
+```
 ---
-
+```sql
 SELECT
     pickup_zone_name,
     dropoff_zone_name,
@@ -126,7 +128,7 @@ FROM
 ORDER BY
     avg_trip_time_minutes DESC
 LIMIT 1;
-
+```
 
 
 ## Question 3
@@ -151,6 +153,7 @@ Options:
 
 SQL
 
+```sql
 WITH LatestPickupTime AS (
     SELECT MAX(tpep_pickup_datetime) AS max_pickup_time
     FROM trip_data
@@ -175,3 +178,4 @@ BusiestZones AS (
     LIMIT 3
 )
 SELECT * FROM BusiestZones;
+```
